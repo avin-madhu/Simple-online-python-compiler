@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 # Test cases
 test_cases = [
-    {"input": "3 5", "output": "8"},
-    {"input": "7 8", "output": "15"}
+    {"input": "3 5", "output": "15"},
+    {"input": "7 8", "output": "56"}
 ]
 
 @app.route('/')
